@@ -35,13 +35,13 @@ Customers were segmented into quartiles based on total revenue:
 - High Value
 
 ## Key Insights
-Revenue Concentration:
+### Revenue Concentration
 The top ~10% of customers account for approximately 60% of total revenue, indicating a highly concentrated revenue distribution.
 
-Customer Behavior Differences:
+### Customer Behavior Differences
 High-value customers demonstrate significantly higher purchase frequency and average order value compared to lower-value segments.
 
-Segment Contribution:
+### Segment Contribution
 Despite equal distribution of customers across segments, the highest-value segment contributes the majority of total revenue.
 
 ## Business Implications
