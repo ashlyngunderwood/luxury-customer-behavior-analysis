@@ -64,4 +64,4 @@ Although customers are evenly distributed across segments, revenue contribution 
 
 ## Tableau Dashboard
 
-![Customer Value Dashboard](customer-value-dashboard.png)
+![Customer Value Dashboard](customer_value_dashboard.png)
