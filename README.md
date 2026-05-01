@@ -61,3 +61,7 @@ Although customers are evenly distributed across segments, revenue contribution 
 ## Deliverables
 - Jupyter Notebook containing full analysis and methodology
 - Tableau dashboard showcasing revenue concentration and behavioral segmentation
+
+## Tableau Dashboard
+
+![Customer Value Dashboard](customer-value-dashboard.png)
