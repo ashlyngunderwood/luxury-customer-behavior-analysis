@@ -1,5 +1,5 @@
 # Luxury Customer Behavior Analysis
-This project analyzes transactional retail data to identify high-value customer segments, quantify revenue concentration, and uncover the key behavioral drivers behind customer value
+This project analyzes transactional retail data to identify high-value customer segments, quantify revenue concentration, and uncover the key behavioral drivers behind customer value.
 
 ## Overview
 The objective of this analysis was to determine how revenue is distributed across customers and to understand what differentiates high-value customers from the rest of the customer base.
@@ -65,3 +65,5 @@ Although customers are evenly distributed across segments, revenue contribution 
 ## Tableau Dashboard
 
 ![Customer Value Dashboard](images/customer_value_dashboard.png)
+
+The dashboard visualizes revenue concentration, average order value, and purchase frequency by customer segment to highlight the behavioral drivers of customer value. 
