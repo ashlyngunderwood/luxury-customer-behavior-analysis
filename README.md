@@ -1,31 +1,33 @@
 # Luxury Customer Behavior Analysis
-This project analyzes customer purchasing behavior using transactional retail data to identify high-value customer segments, revenue concentration, and key drivers of customer value.
+This project analyzes transactional retail data to identify high-value customer segments, quantify revenue concentration, and uncover the key behavioral drivers behind customer value
 
 ## Overview
-The analysis focuses on understanding how revenue is distributed across customers and what differentiates high-value customers from lower-value segments.
+The objective of this analysis was to determine how revenue is distributed across customers and to understand what differentiates high-value customers from the rest of the customer base.
 
-Key areas of analysis include:
-- Revenue concentration
-- Customer segmentation
-- Purchase frequency
-- Average order value
+Key areas of focus include:
+- Revenue concentration across customer segments
+- Behavioral differences by segment
+- Purchase frequency and repeat behavior
+- Average order value (AOV) as a driver of customer value
 
 ## Tools & Technologies
 - Python (pandas, numpy, matplotlib)
 - Jupyter Notebook
-- Tableau (for visualization and dashboarding)
+- Tableau (dashboard development and visualization)
 
 ## Data Preparation
-- Standardized column names for consistency
-- Removed records with missing customer IDs
+- Standardized column naming conventions for consistency
+- Removed incomplete records (missing customer IDs)
 - Created a revenue metric (Quantity × Price)
-- Ensured appropriate data types for analysis
+- Validated and corrected data types for analysis
 
 ## Customer-Level Analysis
 Transaction-level data was aggregated to the customer level to calculate:
 - Total revenue per customer
 - Purchase frequency
 - Average order value
+
+This enabled a shift from transactional reporting to customer-centric analysis, allowing for more meaningful segmentation and insights. 
 
 ## Customer Segmentation
 Customers were segmented into quartiles based on total revenue:
@@ -34,22 +36,28 @@ Customers were segmented into quartiles based on total revenue:
 - Upper-Mid
 - High Value
 
+This segmentation framework enabled direct comparison of behavior and contribution across customer groups. 
+
 ## Key Insights
 ### Revenue Concentration
-The top ~10% of customers account for approximately 60% of total revenue, indicating a highly concentrated revenue distribution.
+A small proportion of customers drives a disproportionate share of revenue. The top ~10% of customers contribute approximately 60% of total revenue, highlighting a highly concentrated revenue distribution. 
 
-### Customer Behavior Differences
-High-value customers demonstrate significantly higher purchase frequency and average order value compared to lower-value segments.
+### Behavioral Drivers of Value
+High-value customers exhibit:
+- Significantly higher purchase frequency
+- Substantially higher average order value
 
-### Segment Contribution
-Despite equal distribution of customers across segments, the highest-value segment contributes the majority of total revenue.
+These two factors are the primary drivers separating top-tier customers from the rest. 
+
+### Segment Contribution Imbalance
+Although customers are evenly distributed across segments, revenue contribution is not. The highest-value segment generates the majority of total revenue, while lower-value segments contribute minimally. 
 
 ## Business Implications
-- Retaining high-value customers is critical to maintaining revenue
-- Improving the first customer experience can increase repeat purchases
-- Loyalty and incentive programs can help increase engagement
-- Mid-tier customers represent an opportunity for growth through targeted strategies
+- Retention is critical: Losing high-value customers would have a disproportionate impact on revenue
+- Early engagement matters: Improving the initial customer experience can increase repeat purchases
+- Growth opportunity exists in mid-tier segments: Targeted strategies can move customers into higher-value tiers
+- Personalization and loyalty strategies can increase frequency and spend
 
 ## Deliverables
 - Jupyter Notebook containing full analysis and methodology
-- Tableau dashboard (to be added) for business-facing visualization
+- Tableau dashboard showcasing revenue concentration and behavioral segmentation
